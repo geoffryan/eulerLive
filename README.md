@@ -12,9 +12,11 @@ Available via Homebrew for MacOS:
 $ brew install sdl2
 ```
 
+Once installed, you should have the `sdl2-config` command available in your `PATH`, this is used by the Makefile to find the necessary include & link flags.
+
 ## Build
 
-Edit the `SDL` variable in `Makefile` to point to your SDL installation. The default is consitent with Homebrew on MacOS.  Then just make!
+Just make!
 
 ```bash
 $ make
